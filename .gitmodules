@@ -1,0 +1,3 @@
+[submodule "age-viewer"]
+	path = age-viewer
+	url = https://github.com/apache/age-viewer.git
