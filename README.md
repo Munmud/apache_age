@@ -8,7 +8,7 @@
 - Go to project directory 
 - run
 ```bash
-git submodule update --recursive
+git submodule update --init --recursive
 ```
 - replace age-viewer/Dockerfile
 ```dockerfile 
