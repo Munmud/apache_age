@@ -100,5 +100,8 @@ SELECT *
 FROM cypher('graph_name', $$
     MATCH (V)-[R]-(V2)
     RETURN V,R,V2
+
 $$) as (V agtype, R agtype, V2 agtype);
 ```
+### Demo View
+![Screenshot from 2023-01-02 07-21-57](https://user-images.githubusercontent.com/53787290/210190026-7bea4a4a-f6c3-4722-a36f-42679898fa0d.png)
